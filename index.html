@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BlockBoost</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        /* Set the background image */
+        .main-bg {
+            background-image: url('img/wallpaper.jpg'); /* Replace with your actual image */
+            background-size: fill;
+            background-position: center ;
+            height: 100vh;
+            position: relative;
+        }
+
+        /* Overlay for readability */
+        .overlay {
+            color: white;
+            text-align: center;
+            padding-top: 30vh;
+            position: relative;
+        }
+
+        /* Center content text */
+        .overlay h1 {
+            font-size: 3rem;
+        }
+
+        /* Buttons section */
+        .btn-group {
+            text-align: center;
+            padding: 40px 0;
+        }
+
+        .btn-custom:hover {
+            background-color: #e04a2b;
+        }
+
+        /* Adjust sections to avoid overlap with the navbar */
+        section {
+            margin-top: 80px;
+        }
+
+        /* Black Navbar */
+        .navbar {
+            background-color:rgb(14, 1, 1);
+        }
+
+        /* Navbar links with a border */
+        .navbar-nav .nav-link {
+            border-bottom: 1px solid transparent;
+            color: white;
+        }
+
+        .navbar-nav .nav-link:hover {
+            border-bottom: 2px solid rgb(14, 1, 1);
+        }
+
+        /* Style for the logo */
+        .navbar-logo {
+            max-height: 40px; /* Adjust the size of the logo */
+            width: auto;
+        }
+
+        /* Achievement Section Styles */
+        .achievement-section {
+            background-color: #FFEB3B; /* Yellow background */
+            padding: 60px 0;
+        }
+        .card {
+            margin: 15px;
+            border: none;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .card img {
+            height: 200px;
+            object-fit: cover;
+        }
+        .card-body {
+            text-align: center;
+        }
+        .card-title {
+            font-size: 1.2rem;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+            <img src="img/logo.png" alt="Logo" class="navbar-logo">
+            <span class="logo-text" style="font-weight: bold;">BlockBoost</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="#">HOME</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="services.html">SERVICES</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="about.html">ABOUT US</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" href="enroll.html">ENROLL NOW</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="contact.html">MESSAGE US</a>
+            </li><li class="nav-item">
+                <a class="nav-link" href="https://jonderufalls.github.io/Kupal-Company/">LOG OUT</a>
+            </li>
+            </ul> 
+        </div>
+    </div>
+</nav>
+
+<!-- Main Section with Background Image -->
+<section class="main-bg">
+    <div class="overlay">
+        <!-- Welcome Text -->
+        <h1 style="font-weight: bold;">BlockBoost Training Center</h1>
+        <p><h3>Ditch the Limits, Chase the Dream!</h3></p>
+    </div>
+</section>
+
+<!-- Achievement Gallery Section -->
+<section class="achievement-section">
+    <div class="container">
+        <h1 class="text-center mb-5" style="font-weight: bold;"> Team Achievements</h1>
+        <div class="row">
+            <!-- Achievement Card 1 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/BARUGO.jpg" alt="Achievement 1">
+                    <div class="card-body">
+                        <h6 class="card-title">BARUGO FIESTA OPEN VOLLEYBALL TOURNAMENT CHAMPION</h6>
+    
+                    </div>
+                </div>
+            </div>
+            <!-- Achievement Card 2 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/CALBAYOG.jpg" alt="Achievement 2">
+                    <div class="card-body">
+                        <h5 class="card-title">SCUAA 2024 CHAMPION</h5>
+                        
+                    </div>
+                </div>
+            </div>
+            <!-- Achievement Card 3 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/VSU.jpg" alt="Achievement 3">
+                    <div class="card-body">
+                        <h5 class="card-title">NATIONAL SCUAA-PALAWAN STATE UNIVERSITY</h5>
+                        
+                    </div>
+                </div>
+            </div>
+            <!-- Additional Achievement Cards (Repeat as needed) -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/PIT.jpg" alt="Achievement 4">
+                    <div class="card-body">
+                        <h5 class="card-title">PALOMPON INSTITUTE OF TECHNOLOGY-TUNE UP GAME</h5>
+                        
+                    </div>
+                </div>
+            </div>
+            <!-- Additional Achievement Cards (Repeat as needed) -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/CULABA.jpeg" alt="Achievement 5">
+                    <div class="card-body">
+                        <h5 class="card-title">CULABA INVITATIONAL WOMENS VOLLEYBALL TOURNAMENT CHAMPION</h5>
+                    </div>
+                </div>
+            </div>
+            <!-- Additional Achievement Cards (Repeat as needed) -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/CATBALOGAN.jpg" alt="Achievement 6">
+                    <div class="card-body">
+                        <h5 class="card-title">CATBABLOGAN INVITATIONAL WOMENS VOLLEYBALL TOURNAMENT CHAMPION</h5>
+                    </div>
+                </div>
+            </div>
+            <!-- Additional Achievement Cards (Repeat as needed) -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/ORMOC.jpg" alt="Achievement 7">
+                    <div class="card-body">
+                        <h5 class="card-title">PINYA FESTIVAL 2ND RUNNERS UP</h5>
+
+                    </div>
+                </div>
+            </div>
+            <!-- Additional Achievement Cards (Repeat as needed) -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/SHAKEYS.jpeg" alt="Achievement 8">
+                    <div class="card-body">
+                        <h5 class="card-title">SHAKEYS SUPER LIGA</h5>
+                    </div>
+                </div>
+            </div>
+            <!-- Additional Achievement Cards (Repeat as needed) -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/PIT TABANGO.jpg" alt="Achievement 9">
+                    <div class="card-body">
+                        <h5 class="card-title">PIT-TABANGO TUNE UP GAME</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Infographic and Promotional Video Section -->
+<section class="media-section">
+    <div class="container">
+        <div class="row">
+            <!-- Infographic Image Section -->
+            <div class="col-md-6">
+                <h4 style="font-weight: bold; text-align: center;">Infographic</h4>
+                <div class="infographic-container" style="border: 2px solid #ddd; padding: 20px; background-color: #f7f7f7; border-radius: 8px;">
+                    <img src="img/infograpics.png" alt="Infographic Image" 
+                        style="max-width: 90%; max-height: 500px; height: auto; display: block; margin: 0 auto;">
+                </div>
+            </div>
+            
+            <!-- Promotional Video Section -->
+            <div class="col-md-6">
+                <h4 style="font-weight: bold; text-align: center;">Watch Our Promotional Video</h4>
+                <div class="video-container" style="border: 2px solid #ddd; padding: 20px; background-color: #f7f7f7; border-radius: 8px;">
+                    <video width="100%" height="auto" controls>
+                        <source src="img/promorional-vid.mp4" type="video/mp4"> <!-- Replace with your actual video path -->
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Bootstrap JS and dependencies -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+
+</body>
+</html>
